@@ -7,6 +7,6 @@ name_hash.each do |key, value|
   if value < name_hash[key]
     min_value = "#{key}" 
   end 
-  min_value 
-  end 
+  end
+  puts min_value
 end
