@@ -8,6 +8,6 @@ name_hash.each do |key, value|
   name_hash[key] = key  
   if value = 500  
   end 
-  end 
   key 
+  end 
 end
