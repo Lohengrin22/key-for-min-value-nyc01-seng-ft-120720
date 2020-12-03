@@ -4,9 +4,9 @@ require 'pry'
 def key_for_min_value(name_hash)
   min_value = 2 
   key =""
-name_hash.each do |key, value|
+name_hash.each_with_index do |key, value|
   if value = 500
-    puts key
+    puts "#{key}"
   end 
   end 
 end
