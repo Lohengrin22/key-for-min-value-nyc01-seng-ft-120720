@@ -3,11 +3,10 @@
 require 'pry'
 def key_for_min_value(name_hash)
   name_hash = {key1: value1, key2: value2, key3: value3}
-  binding.pry
+  value = value1
 name_hash.each do |key, value|
-  name_hash[key] = value
-  if value = name_hash[key]
-    
+  if value < value1 && value2 && value3
+  puts key     
   end 
   end 
 end
